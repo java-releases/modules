@@ -26,8 +26,11 @@ alimentacao/.settings
 alimentacao/.classpath
 alimentacao/.project
 alimentacao/bin/*
-
 cuidado/.settings
 cuidado/.classpath
 cuidado/.project
 cuidado/bin/*
+comunicacao/.settings
+comunicacao/.classpath
+comunicacao/.project
+comunicacao/bin/*
