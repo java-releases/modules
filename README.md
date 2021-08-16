@@ -49,5 +49,31 @@
   - `--show-module-resolution`: exibe módulos ao rodar o programa
   - `--list-modules`: lista de módulos sem rodar um programa
 
-  
+- **jar:**
+  - `--create`: criar um novo JAR file
+  - `-c`: criar um novo JAR file
+  - `--file`: JAR filename
+  - `-f`: JAR filename
+  - `--verbose`: exibir detalhes
+  - `-v`: exibir detalhes
+  - `-C`: diretório que contém arquivos usados para criar o JAR
+  - `--describe-module`: descrição de detalhes de um módulo
+  - `-d`: descrição de detalhes de um módulo
+
+- **jdeps:**
+  - `--module-path`: caminho dos jar’s em programas modulares
+  - `-summary`: exibir sumário
+  - `-s`: exibir sumário
+
+
+- **Módulos fornecidos pelo JDK**:
+  - java.base
+  - java.desktop
+  - java.logging
+  - jdk.compiler
+
+- **Vantagens dos Módulos**:
+  - Encapsulamento de pacotes
+  - Plataforma independente
+
   
