@@ -74,6 +74,5 @@
 
 - **Vantagens dos Módulos**:
   - Encapsulamento de pacotes
-  - Plataforma independente
 
   
