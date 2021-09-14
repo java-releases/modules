@@ -12,6 +12,7 @@
 ### Regras
 - Um módulo não pode ter ao mesmo tempo um “required” e um “required transitive” para um mesmo módulo. Isso não compila.
 - Um arquivo module-info.java pode ser vazio.
+- Uma dependência ciclica, sempre envolve pelo menos 2 dependências obrigatórias. `(requires)`
 
 - **Diretivas:**
   - module: nome do módulo;
