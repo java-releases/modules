@@ -25,6 +25,7 @@
   - requires: indica que um módulo depende de outro módulo;
   - requires transitive: indica que o módulo e todos os módulos que usem esse módulo, dependem de um outro módulo;
   - opens: permite usar reflection; 
+  <br/><br/>
   
 > #### **Jmod command**
   - create
@@ -32,6 +33,7 @@
   - describe
   - extract 
   - hash
+  <br/><br/>
   
 > #### **javac**
   - `-cp`: caminho dos jar’s em programas não modulares
@@ -40,7 +42,8 @@
   - `-d`: diretório onde será colocado todos arquivos compilados
   - `-p`: caminho dos jar’s em programas modulares
   - `--module-path`: caminho dos jar’s em programas modulares  
-
+<br/><br/>
+  
 > #### **java**
   - `-cp`: caminho dos jar’s em programas não modulares
   - `-classpath`: caminho dos jar’s em programas não modulares
@@ -53,7 +56,8 @@
   - `-m`: nome do modulo (modulo.name/Xpto.java)
   - `--show-module-resolution`: exibe módulos ao rodar o programa
   - `--list-modules`: lista de módulos sem rodar um programa
-
+<br/><br/>
+  
 > #### **jar**
   - `--create`: criar um novo JAR file
   - `-c`: criar um novo JAR file
@@ -64,18 +68,20 @@
   - `-C`: diretório que contém arquivos usados para criar o JAR
   - `--describe-module`: descrição de detalhes de um módulo
   - `-d`: descrição de detalhes de um módulo
-
+<br/><br/>
+  
 > #### **jdeps**
   - `--module-path`: caminho dos jar’s em programas modulares
   - `-summary`: exibir sumário
   - `-s`: exibir sumário
-
+<br/><br/>
 
 > #### **Módulos fornecidos pelo JDK**
   - java.base
   - java.desktop
   - java.logging
   - jdk.compiler
-
+<br/><br/>
+  
 > #### **Vantagens dos Módulos**
   - Encapsulamento de pacotes
