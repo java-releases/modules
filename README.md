@@ -1,5 +1,3 @@
-![](https://github.com/ocpjp-study/modules/blob/main/modulos.jpg)
-
 ### Tópico: Módulos
 
 ### Objetivos
